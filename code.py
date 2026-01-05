@@ -1,3 +1,4 @@
+import pandas as pd
 import numpy as np
 
 class LinearRegressionScratch:
@@ -30,4 +31,6 @@ class LinearRegressionScratch:
 
     def predict(self, X):
         return np.dot(X, self.weights) + self.bias
+    
+
     
